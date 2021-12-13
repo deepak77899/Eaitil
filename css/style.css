@@ -919,7 +919,7 @@ svg.slider-shape{
     padding: 30px;
 }
 .heightAbout {
-    height: 486px;
+    height: 400px;
     overflow-y: scroll;
 }
 .about .box h2 {
@@ -1753,15 +1753,25 @@ svg.slider-shape{
     .contact-sec .contact-form textarea {
         margin-bottom: 60px;
     }
+	
 }
-
-@media (max-width: 1280px) and (min-width: 1210px) {
+@media (max-width: 1367px) and (min-width: 1290px) {
+	.heightAbout {
+    height: 350px;
+    overflow-y: scroll;
+}
+}
+@media (max-width: 1280px) and (min-width: 1200px) {
     .my_tog {
         margin-right: 0;
     }
     .sticky-logo {
         right: -15px;
     }
+	.heightAbout {
+    height: 350px;
+    overflow-y: scroll;
+}
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
@@ -1834,6 +1844,7 @@ svg.slider-shape{
     .btn.btn-medium {
         padding: 10px 42px;
     }
+	
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px){
