@@ -503,6 +503,7 @@ section{padding: 0;}
     right: 0;
     left:0;
     opacity: 1;
+	height: 100vh;
 }
 
 .margin-manage {
@@ -1769,13 +1770,19 @@ svg.slider-shape{
     section {padding: 10rem 0;}
     html {scroll-behavior: smooth;}
     .section-heading {margin-bottom: 3.5rem;}
-    .about, .team, .portfolio-bg, .blog-bg, .contact-sec {height: auto;}
+    .about, .team, .portfolio-bg, .blog-bg, .contact-sec {height: 100vh;}
 .heightAbout {
     height: 340px;
     overflow-y: scroll;
 }
 .about .box {
     padding: 30px;
+}
+.pp-tableCell {
+    display: block;
+}
+.pp-section.pp-table {
+    display: block;
 }
     /* Side Nav */
     .my_tog {
