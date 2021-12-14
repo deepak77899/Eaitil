@@ -1760,6 +1760,32 @@ svg.slider-shape{
     height: 350px;
     overflow-y: scroll;
 }
+.side-nav-menu .nav-menu {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+.about h2 {
+    font-size: 34px;
+}
+.about .box {
+    padding: 14px;
+}
+.team h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.main-heading h2 {
+    font-size: 34px;
+	margin-bottom: 0;
+}
+.portfolio-content h5 {
+    font-size: 12px;
+}
+.contact-sec .heading {
+    font-size: 34px;
+    margin-bottom: 0;
+}
 }
 @media (max-width: 1280px) and (min-width: 1200px) {
     .my_tog {
