@@ -279,10 +279,9 @@ section{padding: 0;}
     width: 20px;
 }
 
-.side-nav-menu .nav-menu{
+.side-nav-menu .nav-menu {
     font-family: 'Montserrat', sans-serif;
     padding-left: 35px;
-    padding-top: 120px;
 }
 
 .broad .side-nav-menu ul{
@@ -315,6 +314,9 @@ section{padding: 0;}
     text-align: left;
 }
 
+.navbar-brand.ml-auto img {
+    max-width: 70px !important;
+}
 .line:after {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -327,6 +329,10 @@ section{padding: 0;}
     transition: all 280ms ease-in-out;
     width: 0;
 }
+.desktoplogo2 img {
+    max-width: 100px;
+}
+
 
 .line:hover:after, .line.active:after {
     -webkit-backface-visibility: hidden;
@@ -559,7 +565,9 @@ section{padding: 0;}
     -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
+.dESKTOPlogo img {
+    max-width: 90px;
+}
 @-webkit-keyframes animationFade {
     from {
         opacity: 0;
@@ -1713,9 +1721,9 @@ svg.slider-shape{
     #pp-nav.left {
         left: 26px;
     }
-    .sticky-logo {
-        right: 2px;
-    }
+   .dESKTOPlogo img {
+    max-width: 90px;
+}
     .my_tog {
         margin-right: 18px;
     }
@@ -1792,12 +1800,23 @@ svg.slider-shape{
     .my_tog {
         margin-right: 0;
     }
-    .sticky-logo {
-        right: -15px;
-    }
+.sticky-logo {
+    right: 8px;
+}
 	.heightAbout {
     height: 350px;
     overflow-y: scroll;
+}
+.dESKTOPlogo img {
+    max-width: 50px;
+}
+.desktoplogo2 img {
+    max-width: 56px;
+}
+.rites-res {
+    position: absolute;
+    bottom: 30px;
+    padding-left: 20px;
 }
 }
 
